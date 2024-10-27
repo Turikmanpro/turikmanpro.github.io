@@ -1,0 +1,51 @@
+button {
+    padding: 0;
+    border: none;
+    font: inherit;
+    color: inherit;
+    background-color: transparent;
+    /* отображаем курсор в виде руки при наведении; некоторые  
+     * считают, что необходимо оставлять стрелочный вид для кнопок 
+     */
+    cursor: pointer;
+  }
+
+body{
+    padding: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.card{
+    text-align: center;
+    margin: auto;
+    background-image: url(../img/background.png);
+
+    background-position: center center;
+}
+
+.ton_fool_club{
+    color: #ffffff;
+    font-size: 40px;
+    padding-top: 54px;
+}
+
+
+.how_play_text {
+    color: #FEBF21;
+    font-size: 20px;
+}
+
+.begin_but {
+    background: #FEBF21;
+    width: 266px;
+    height: 48px;
+    font-size: 25px;
+    margin-top: 350px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+.begin_but:hover, .begin_but:focus, .begin_but:active {
+    background: #bf8a03;
+}
